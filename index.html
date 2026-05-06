@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bolo de cenoura artesanal feito com carinho. Receita caseira, ingredientes selecionados e cobertura cremosa de chocolate. Peça online e receba na sua casa.">
+    <meta name="theme-color" content="#E87A2C">
+
+    <!-- Open Graph / redes sociais -->
+    <meta property="og:title" content="Dona Cenoura — O Bolo de Cenoura mais fofinho da cidade">
+    <meta property="og:description" content="Bolo de cenoura artesanal com cobertura de chocolate. Peça online e receba fresquinho na sua casa.">
+    <meta property="og:type" content="website">
+
+    <title>Dona Cenoura — O Bolo de Cenoura mais fofinho da cidade</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Skip link para acessibilidade (WCAG) -->
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header" role="banner">
+        <div class="container header__inner">
+            <a href="#" class="logo" aria-label="Dona Cenoura — Página inicial">
+                <span class="logo__icon" aria-hidden="true">🥕</span>
+                <span class="logo__text">Dona Cenoura</span>
+            </a>
+
+            <nav class="nav" aria-label="Navegação principal">
+                <ul class="nav__list">
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#como-funciona">Como funciona</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#faq">Dúvidas</a></li>
+                </ul>
+            </nav>
+
+            <a href="#pedido" class="btn btn--primary btn--sm">Peça já</a>
+
+            <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+
+        <!-- Menu mobile -->
+        <nav id="mobile-menu" class="mobile-menu" aria-label="Menu mobile" hidden>
+            <ul>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#como-funciona">Como funciona</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#faq">Dúvidas</a></li>
+                <li><a href="#pedido" class="btn btn--primary">Peça já</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+
+        <!-- ========== HERO ========== -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero__inner">
+                <div class="hero__content">
+                    <span class="badge">⭐ Mais de 2.500 bolos entregues</span>
+                    <h1 id="hero-title" class="hero__title">
+                        O bolo de cenoura mais <em>fofinho</em> da cidade.
+                    </h1>
+                    <p class="hero__subtitle">
+                        Receita de família, ingredientes selecionados e aquela cobertura de chocolate que escorre. Feito no dia, entregue fresquinho na sua porta.
+                    </p>
+
+                    <div class="hero__cta">
+                        <a href="#pedido" class="btn btn--primary btn--lg">
+                            Peça o seu agora
+                            <span aria-hidden="true">→</span>
+                        </a>
+                        <a href="#cardapio" class="btn btn--ghost btn--lg">Ver cardápio</a>
+                    </div>
+
+                    <ul class="hero__trust" aria-label="Garantias">
+                        <li><span aria-hidden="true">✓</span> Entrega no mesmo dia</li>
+                        <li><span aria-hidden="true">✓</span> Pagamento via Pix ou cartão</li>
+                        <li><span aria-hidden="true">✓</span> Sem conservantes</li>
+                    </ul>
+                </div>
+
+                <figure class="hero__image" aria-hidden="true">
+                    <div class="hero__cake">
+                        <!-- Bolo ilustrado em CSS puro (sem dependência externa) -->
+                        <div class="cake">
+                            <div class="cake__plate"></div>
+                            <div class="cake__base"></div>
+                            <div class="cake__icing"></div>
+                            <div class="cake__drip cake__drip--1"></div>
+                            <div class="cake__drip cake__drip--2"></div>
+                            <div class="cake__drip cake__drip--3"></div>
+                            <div class="cake__sprinkle cake__sprinkle--1"></div>
+                            <div class="cake__sprinkle cake__sprinkle--2"></div>
+                            <div class="cake__sprinkle cake__sprinkle--3"></div>
+                            <div class="cake__carrot">🥕</div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+        </section>
+
+        <!-- ========== DIFERENCIAIS ========== -->
+        <section class="features" aria-labelledby="features-title">
+            <div class="container">
+                <h2 id="features-title" class="section-title">Por que pedir da Dona Cenoura?</h2>
+
+                <div class="features__grid">
+                    <article class="feature">
+                        <div class="feature__icon" aria-hidden="true">👵</div>
+                        <h3>Receita artesanal</h3>
+                        <p>Massa fofinha feita com cenouras frescas e cobertura cremosa de chocolate meio amargo.</p>
+                    </article>
+
+                    <article class="feature">
+                        <div class="feature__icon" aria-hidden="true">🚚</div>
+                        <h3>Entrega rápida</h3>
+                        <p>Pedidos feitos até 14h são entregues no mesmo dia em toda a região metropolitana.</p>
+                    </article>
+
+                    <article class="feature">
+                        <div class="feature__icon" aria-hidden="true">🌱</div>
+                        <h3>Ingredientes naturais</h3>
+                        <p>Sem conservantes, sem corantes. Só ingredientes que você reconhece e confia.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CARDÁPIO ========== -->
+        <section id="cardapio" class="menu" aria-labelledby="menu-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="eyebrow">Cardápio</span>
+                    <h2 id="menu-title" class="section-title">Escolha o seu favorito</h2>
+                    <p class="section-subtitle">Todos os bolos servem de 8 a 10 pessoas.</p>
+                </header>
+
+                <div class="menu__grid">
+
+                    <article class="card">
+                        <div class="card__image card__image--classic" aria-hidden="true">
+                            <span>🍰</span>
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Clássico de Chocolate</h3>
+                            <p class="card__desc">O tradicional bolo de cenoura com cobertura cremosa de chocolate meio amargo.</p>
+                            <div class="card__footer">
+                                <span class="card__price">R$ 49,90</span>
+                                <a href="#pedido" class="btn btn--primary btn--sm" data-product="Clássico de Chocolate">Pedir</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card card--featured">
+                        <span class="card__badge">Mais pedido</span>
+                        <div class="card__image card__image--brigadeiro" aria-hidden="true">
+                            <span>🧁</span>
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Cenoura com Brigadeiro</h3>
+                            <p class="card__desc">Massa fofinha coberta com brigadeiro gourmet e granulado belga.</p>
+                            <div class="card__footer">
+                                <span class="card__price">R$ 59,90</span>
+                                <a href="#pedido" class="btn btn--primary btn--sm" data-product="Cenoura com Brigadeiro">Pedir</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__image card__image--nuts" aria-hidden="true">
+                            <span>🌰</span>
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Cenoura com Nozes</h3>
+                            <p class="card__desc">A receita clássica com pedaços crocantes de nozes e cobertura de cream cheese.</p>
+                            <div class="card__footer">
+                                <span class="card__price">R$ 64,90</span>
+                                <a href="#pedido" class="btn btn--primary btn--sm" data-product="Cenoura com Nozes">Pedir</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== COMO FUNCIONA ========== -->
+        <section id="como-funciona" class="how" aria-labelledby="how-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="eyebrow">É simples</span>
+                    <h2 id="how-title" class="section-title">Em 3 passos seu bolo chega quentinho</h2>
+                </header>
+
+                <ol class="how__steps">
+                    <li class="step">
+                        <span class="step__number" aria-hidden="true">1</span>
+                        <h3>Escolha o seu bolo</h3>
+                        <p>Selecione o sabor e a quantidade no nosso cardápio.</p>
+                    </li>
+                    <li class="step">
+                        <span class="step__number" aria-hidden="true">2</span>
+                        <h3>Faça o pedido</h3>
+                        <p>Preencha o formulário e confirme o pagamento via Pix ou cartão.</p>
+                    </li>
+                    <li class="step">
+                        <span class="step__number" aria-hidden="true">3</span>
+                        <h3>Receba em casa</h3>
+                        <p>Entregamos no mesmo dia, fresquinho e pronto pra você devorar.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ========== DEPOIMENTOS ========== -->
+        <section id="depoimentos" class="testimonials" aria-labelledby="testimonials-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="eyebrow">Depoimentos</span>
+                    <h2 id="testimonials-title" class="section-title">O que os nossos clientes dizem</h2>
+                </header>
+
+                <div class="testimonials__grid">
+                    <figure class="testimonial">
+                        <blockquote>
+                            <p>“O bolo mais fofinho que já comi! Chegou quentinho e a cobertura é divina. Virei cliente fiel.”</p>
+                        </blockquote>
+                        <figcaption>
+                            <strong>Mariana S.</strong>
+                            <span aria-label="5 estrelas de 5">⭐⭐⭐⭐⭐</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="testimonial">
+                        <blockquote>
+                            <p>“Pedi para o aniversário da minha mãe e ela amou. Atendimento rápido e bolo perfeito!”</p>
+                        </blockquote>
+                        <figcaption>
+                            <strong>Rafael O.</strong>
+                            <span aria-label="5 estrelas de 5">⭐⭐⭐⭐⭐</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="testimonial">
+                        <blockquote>
+                            <p>“Sabor de bolo de vó de verdade. O de nozes é meu preferido, recomendo demais!”</p>
+                        </blockquote>
+                        <figcaption>
+                            <strong>Carla M.</strong>
+                            <span aria-label="5 estrelas de 5">⭐⭐⭐⭐⭐</span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== FAQ ========== -->
+        <section id="faq" class="faq" aria-labelledby="faq-title">
+            <div class="container container--narrow">
+                <header class="section-header">
+                    <span class="eyebrow">FAQ</span>
+                    <h2 id="faq-title" class="section-title">Dúvidas frequentes</h2>
+                </header>
+
+                <div class="faq__list">
+                    <details class="faq__item">
+                        <summary>
+                            Qual o prazo de entrega?
+                            <span class="faq__icon" aria-hidden="true">+</span>
+                        </summary>
+                        <div class="faq__answer">
+                            <p>Pedidos feitos até 14h são entregues no mesmo dia. Após esse horário, a entrega acontece no dia seguinte.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary>
+                            Quais formas de pagamento vocês aceitam?
+                            <span class="faq__icon" aria-hidden="true">+</span>
+                        </summary>
+                        <div class="faq__answer">
+                            <p>Aceitamos Pix, cartão de crédito, débito e dinheiro na entrega.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary>
+                            Vocês entregam em qual região?
+                            <span class="faq__icon" aria-hidden="true">+</span>
+                        </summary>
+                        <div class="faq__answer">
+                            <p>Atendemos toda a região metropolitana. Consulte sua cidade no formulário de pedido.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary>
+                            Tem opção sem glúten ou sem lactose?
+                            <span class="faq__icon" aria-hidden="true">+</span>
+                        </summary>
+                        <div class="faq__answer">
+                            <p>Sim! Temos versões sem glúten e sem lactose sob encomenda. Entre em contato pelo WhatsApp para mais informações.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary>
+                            Posso encomendar para uma data específica?
+                            <span class="faq__icon" aria-hidden="true">+</span>
+                        </summary>
+                        <div class="faq__answer">
+                            <p>Claro! Encomendas para datas comemorativas devem ser feitas com no mínimo 48h de antecedência.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== FORMULÁRIO DE PEDIDO ========== -->
+        <section id="pedido" class="order" aria-labelledby="order-title">
+            <div class="container container--narrow">
+                <header class="section-header section-header--center">
+                    <span class="eyebrow">Pedido</span>
+                    <h2 id="order-title" class="section-title">Faça seu pedido</h2>
+                    <p class="section-subtitle">Preencha os dados e finalizamos pelo WhatsApp.</p>
+                </header>
+
+                <form class="form" id="order-form" novalidate>
+                    <div class="form__row">
+                        <div class="form__field">
+                            <label for="nome">Seu nome <span class="required" aria-hidden="true">*</span></label>
+                            <input type="text" id="nome" name="nome" required autocomplete="name" aria-required="true">
+                            <span class="form__error" data-error-for="nome" role="alert"></span>
+                        </div>
+
+                        <div class="form__field">
+                            <label for="telefone">WhatsApp <span class="required" aria-hidden="true">*</span></label>
+                            <input type="tel" id="telefone" name="telefone" required autocomplete="tel" placeholder="(11) 99999-9999" aria-required="true">
+                            <span class="form__error" data-error-for="telefone" role="alert"></span>
+                        </div>
+                    </div>
+
+                    <div class="form__row">
+                        <div class="form__field">
+                            <label for="sabor">Sabor <span class="required" aria-hidden="true">*</span></label>
+                            <select id="sabor" name="sabor" required aria-required="true">
+                                <option value="">Selecione um sabor</option>
+                                <option value="Clássico de Chocolate">Clássico de Chocolate — R$ 49,90</option>
+                                <option value="Cenoura com Brigadeiro">Cenoura com Brigadeiro — R$ 59,90</option>
+                                <option value="Cenoura com Nozes">Cenoura com Nozes — R$ 64,90</option>
+                            </select>
+                            <span class="form__error" data-error-for="sabor" role="alert"></span>
+                        </div>
+
+                        <div class="form__field">
+                            <label for="quantidade">Quantidade <span class="required" aria-hidden="true">*</span></label>
+                            <input type="number" id="quantidade" name="quantidade" min="1" max="20" value="1" required aria-required="true">
+                            <span class="form__error" data-error-for="quantidade" role="alert"></span>
+                        </div>
+                    </div>
+
+                    <div class="form__field">
+                        <label for="endereco">Endereço de entrega <span class="required" aria-hidden="true">*</span></label>
+                        <input type="text" id="endereco" name="endereco" required autocomplete="street-address" placeholder="Rua, número, bairro, cidade" aria-required="true">
+                        <span class="form__error" data-error-for="endereco" role="alert"></span>
+                    </div>
+
+                    <div class="form__field">
+                        <label for="observacoes">Observações <span class="form__optional">(opcional)</span></label>
+                        <textarea id="observacoes" name="observacoes" rows="3" placeholder="Alguma preferência ou recado?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--lg btn--block">
+                        Enviar pedido pelo WhatsApp
+                        <span aria-hidden="true">→</span>
+                    </button>
+
+                    <p class="form__disclaimer">
+                        Ao enviar, você concorda em ser contatado por WhatsApp para confirmar o pedido.
+                    </p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <a href="#" class="logo">
+                    <span class="logo__icon" aria-hidden="true">🥕</span>
+                    <span class="logo__text">Dona Cenoura</span>
+                </a>
+                <p>O bolo de cenoura mais fofinho da cidade, feito com carinho desde 2018.</p>
+            </div>
+
+            <div class="footer__col">
+                <h4>Contato</h4>
+                <ul>
+                    <li><a href="https://wa.me/5511999999999">WhatsApp: (11) 99999-9999</a></li>
+                    <li><a href="mailto:contato@donacenoura.com.br">contato@donacenoura.com.br</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>Redes sociais</h4>
+                <ul class="footer__social">
+                    <li><a href="#" aria-label="Instagram da Dona Cenoura">Instagram</a></li>
+                    <li><a href="#" aria-label="TikTok da Dona Cenoura">TikTok</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container">
+                <p>&copy; 2025 Dona Cenoura. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão flutuante WhatsApp -->
+    <a href="https://wa.me/5511999999999" class="float-whatsapp" aria-label="Falar pelo WhatsApp" target="_blank" rel="noopener">
+        <span aria-hidden="true">💬</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
